@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    height: 120px;
+    justify-content: space-evenly;
+    font-family: 'SF Pro Rounded', sans-serif;
+
+}
+
+.spacer-left {
+    width: 250px;
+}
+
+.header img {
+    width: 250px;
+
+}
+
+.nav__top {
+    font-weight: 400;
+    font-size: 1.3rem;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly
+}

@@ -1,0 +1,61 @@
+/* San Francisco Pro - Display */
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../assets/fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Display-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SF Pro Display';
+    src: url('../assets/fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Display-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SF Pro Display';
+    src: url('../assets/fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Display-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SF Pro Display';
+    src: url('../assets/fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Display-Heavy.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SF Pro Display';
+    src: url('../assets/fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Display-Black.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+  }
+  /* Add more as needed for Display-Light, Medium, Heavy, Italic, etc */
+  
+  /* San Francisco Pro - Rounded */
+  @font-face {
+    font-family: 'SF Pro Rounded';
+    src: url('../assets/fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Rounded-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SF Pro Rounded';
+    src: url('../assets/fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Rounded-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  /* San Francisco Pro - Text */
+  @font-face {
+    font-family: 'SF Pro Text';
+    src: url('../assets/fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Text-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SF Pro Text';
+    src: url('../assets/fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Text-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  

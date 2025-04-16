@@ -1,0 +1,44 @@
+.home__slogan {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home__slogan h1 {
+    text-align: center;
+    margin: 0;
+    margin-top: -5px;
+    font-weight: 500;
+    font-size:4rem;
+}
+
+.text__bold {
+    font-weight: 700;
+}
+
+.home__description {
+    font-weight: 400;
+    font-size: 2.3rem;
+    margin-top: 10px;
+}
+
+.home__slogan button {
+    margin-top: 10px;
+    background-color: var(--cartsy-green);
+    color: white;
+    font-size: 2.3rem;
+    padding: 8px 0px 12px 0px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.123);
+    transition-duration: 250ms;
+    cursor: pointer;
+    min-width: 360px;
+}
+
+.home__slogan button:hover {
+    transform: scale(1.1);
+    background-color: var(--cartsy-green-excited);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.123);
+}
