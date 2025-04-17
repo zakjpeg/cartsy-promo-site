@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link, HashRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Learn from './pages/Learn';
@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-      <BrowserRouter>
+      <HashRouter>
       <div className="header">
         <div className="spacer-left"></div>
         <Link to="/"><img src="./public/cartsyLogoName.png" alt="" /></Link>
@@ -26,7 +26,7 @@ function App() {
           <Route path="/learn" element={<Learn />} />
           <Route path='/features' element={<Features />}></Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
 
   );
 }
