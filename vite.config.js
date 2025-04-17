@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "https://zakjpeg.github.io/cartsy-promo-site",
+  base: '/cartsy-promo-site/',
 })
