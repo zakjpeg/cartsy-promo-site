@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:5173/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">import { injectIntoGlobalHook } from "/@react-refresh"
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+    <script type="module" src="./Cartsy _ Grocery Lists for Families_files/client"></script>
+
+    
+    <link rel="icon" type="image/svg+xml" href="http://localhost:5173/cartsyLogo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartsy | Grocery Lists for Families</title>
+  <link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style lang="en" type="text/css" id="dark-mode-custom-style"></style><style lang="en" type="text/css" id="dark-mode-native-style"></style><style lang="en" type="text/css" id="dark-mode-native-sheet"></style><style type="text/css" data-vite-dev-id="C:/3PROJECTS/Other/Coding Adventure/Cartsy Promo Site/cartsy-promo-site/src/css/styles__home.css">
+
+.carousel {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: first baseline;
+    width: 300%;
+    transform: translate(-1%);
+    animation: carousel__slide 60s linear infinite;
+}
+ 
+@keyframes carousel__slide {
+    0%      {transform: translate(-1%)}
+    100%    {transform: translate(-54.35%)}
+}
+
+.card {
+    margin-left: 40px;
+    width: 20svw;
+    height: 22svh;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.13);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.card__title {
+    font-size: 1.5rem;
+    padding: 10px;
+    font-weight: 500
+}
+
+.card__image {
+    width: 40svh;
+}
+
+.home__wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 70svh;
+}
+
+.home__slogan__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform: scale(0.9);
+}
+
+.home__slogan {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.home__slogan h1 {
+    text-align: center;
+    margin: 0;
+    margin-top: -5px;
+    font-weight: 500;
+    font-size:4rem;
+}
+
+.text__bold {
+    font-weight: 700;
+}
+
+.home__description {
+    font-weight: 400;
+    font-size: 2.3rem;
+    margin-top: 10px;
+}
+
+.home__slogan button {
+    margin-top: 10px;
+    background-color: var(--cartsy-green);
+    color: white;
+    font-size: 2.3rem;
+    padding: 8px 0px 12px 0px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.123);
+    transition-duration: 250ms;
+    cursor: pointer;
+    min-width: 360px;
+}
+
+.home__slogan button:hover {
+    transform: scale(1.1);
+    background-color: var(--cartsy-green-excited);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.123);
+}
+
+.message1 {
+    position: absolute;
+    bottom: 19svh;
+    left: 5svw;
+    width: 0;
+    max-width: 350px;
+    opacity: 0;
+    transition-duration: 600ms;
+}
+
+.message2 {
+    position:absolute;
+    bottom: 10svh;
+    right: 5svw;
+    width: 0;
+    max-width: 350px;
+    opacity: 0;
+    transition-duration: 600ms;
+}
+
+.visible1, .visible2 {
+    transition-duration: 0;
+    opacity: 1;
+    width: 18svw;
+}
+
+@media only screen and (max-width:500px) {
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .header img {
+        position: static;
+        width: 50px;
+    }
+
+    .carousel {
+        display: none;
+    }
+
+    .card {
+        background-color: red;
+        min-width: 200px;
+    }
+
+    .home__slogan {
+        margin-top: 300px;
+    }
+
+    .home__slogan h1 {
+        font-size: 2.6rem;
+    }
+
+    .home__slogan h3 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .message1 {
+        left: 15svw;
+        top: 25svh;
+        width: 200px;
+    }
+
+    .message2 {
+        right: 15svw;
+        top: 38svh;
+        width: 220px;
+    }
+
+
+}</style><style type="text/css" data-vite-dev-id="C:/3PROJECTS/Other/Coding Adventure/Cartsy Promo Site/cartsy-promo-site/src/css/fonts.css">/* San Francisco Pro - Display */
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/src/assets/fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Display-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SF Pro Display';
+    src: url('/src/assets/fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Display-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SF Pro Display';
+    src: url('/src/assets/fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Display-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SF Pro Display';
+    src: url('/src/assets/fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Display-Heavy.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SF Pro Display';
+    src: url('/src/assets/fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Display-Black.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+  }
+  /* Add more as needed for Display-Light, Medium, Heavy, Italic, etc */
+  
+  /* San Francisco Pro - Rounded */
+  @font-face {
+    font-family: 'SF Pro Rounded';
+    src: url('/src/assets/fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Rounded-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SF Pro Rounded';
+    src: url('/src/assets/fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Rounded-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  /* San Francisco Pro - Text */
+  @font-face {
+    font-family: 'SF Pro Text';
+    src: url('/src/assets/fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Text-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SF Pro Text';
+    src: url('/src/assets/fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Text-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  </style><style type="text/css" data-vite-dev-id="C:/3PROJECTS/Other/Coding Adventure/Cartsy Promo Site/cartsy-promo-site/src/css/styles__learn.css">.learn__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 74svh;
+}
+
+.learn__wrapper img {
+}
+
+.learn__description {
+    padding-top: 50px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.learn__description h3 {
+    font-size: 2rem;
+}
+
+.learn__description p {
+    font-size: 1.3rem;
+    font-family: 'SF Pro Text', sans-serif;
+    font-weight: 400;
+}
+
+.learn__description button {
+    width: 100%;
+    margin-top: 50px;
+    background-color: var(--cartsy-green);
+    color: white;
+    font-size: 1.9rem;
+    padding: 8px 0px 12px 0px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.123);
+    transition-duration: 250ms;
+    cursor: pointer;
+    min-width: 360px;
+    justify-self: center;
+}
+
+.learn__description button:hover {
+    transform: scale(1.1);
+    background-color: var(--cartsy-green-excited);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.123);
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+}
+
+.flex__reverse {
+    flex-direction: row-reverse;
+}
+</style><style type="text/css" data-vite-dev-id="C:/3PROJECTS/Other/Coding Adventure/Cartsy Promo Site/cartsy-promo-site/src/css/styles__header.css">.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    height: 120px;
+    justify-content: space-evenly;
+    font-family: 'SF Pro Rounded', sans-serif;
+
+}
+
+.spacer-left {
+    width: 250px;
+}
+
+.header img {
+    width: 250px;
+
+}
+
+.nav__top {
+    font-weight: 400;
+    font-size: 1.3rem;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly
+}
+
+@media only screen and (max-width:500px) {
+
+    .header {
+        justify-content: space-between;
+    }
+
+    .header img {
+        width: 150px;
+    }
+
+    .spacer-left {
+        display: none;
+    }
+
+    .nav__top {
+        display: none;
+    }
+
+}</style><style type="text/css" data-vite-dev-id="C:/3PROJECTS/Other/Coding Adventure/Cartsy Promo Site/cartsy-promo-site/src/App.css">:root {
+    --cartsy-green: #159075;
+    --cartsy-green-excited: #18a082;
+    --homepage-bg: #f7f7f7;
+}
+
+body {
+    user-select: none;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 700;
+    padding: 20px;
+    background-color: var(--homepage-bg);
+    overflow-x: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}</style><script id="simplify-jobs-page-script" src="chrome-extension://pbanhockgagggenencehbnadejlgchfc/js/pageScript.bundle.js"></script></head>
+  <body cz-shortcut-listen="true" data-new-gr-c-s-check-loaded="14.1231.0" data-gr-ext-installed="">
+    <div id="root"><div class="header"><div class="spacer-left"></div><img alt="" src="./Cartsy _ Grocery Lists for Families_files/cartsyLogoName.png"><nav class="nav__top"><a href="http://localhost:5173/" data-discover="true">Home</a><a href="http://localhost:5173/about" data-discover="true">About</a></nav></div><div class="home__wrapper"><div class="carousel"><div class="card turkey"><div class="card__title">🍗 Turkey</div><img alt="" class="card__image" src="./Cartsy _ Grocery Lists for Families_files/turkey.jpg"></div><div class="card gatorade"><div class="card__title">🥤 Gatorade</div><img alt="" class="card__image" src="./Cartsy _ Grocery Lists for Families_files/gatorade.jpg"></div><div class="card avocado"><div class="card__title">🥑 Avocado</div><img alt="" class="card__image" src="./Cartsy _ Grocery Lists for Families_files/avocado.jpg"></div><div class="card pizzarolls"><div class="card__title">🍕 Pizza Rolls</div><img alt="" class="card__image" src="./Cartsy _ Grocery Lists for Families_files/pizzarolls.jpg"></div><div class="card butter"><div class="card__title">🧈 Butter</div><img alt="" class="card__image" src="./Cartsy _ Grocery Lists for Families_files/butter.webp"></div><div class="card bread"><div class="card__title">🍞 Bread</div><img alt="" class="card__image" src="./Cartsy _ Grocery Lists for Families_files/bread.webp"></div><div class="card cheerios"><div class="card__title">🥣 Cheerios</div><img alt="" class="card__image" src="./Cartsy _ Grocery Lists for Families_files/cheerios.jpg"></div><div class="card cutlery"><div class="card__title">🍴 Cutlery</div><img alt="" class="card__image" src="./Cartsy _ Grocery Lists for Families_files/cutlery.webp"></div><div class="card turkey"><div class="card__title">🍗 Turkey</div><img alt="" class="card__image" src="./Cartsy _ Grocery Lists for Families_files/turkey.jpg"></div><div class="card gatorade"><div class="card__title">🥤 Gatorade</div><img alt="" class="card__image" src="./Cartsy _ Grocery Lists for Families_files/gatorade.jpg"></div><div class="card avocado"><div class="card__title">🥑 Avocado</div><img alt="" class="card__image" src="./Cartsy _ Grocery Lists for Families_files/avocado.jpg"></div><div class="card pizzarolls"><div class="card__title">🍕 Pizza Rolls</div><img alt="" class="card__image" src="./Cartsy _ Grocery Lists for Families_files/pizzarolls.jpg"></div><div class="card butter"><div class="card__title">🧈 Butter</div><img alt="" class="card__image" src="./Cartsy _ Grocery Lists for Families_files/butter.webp"></div><div class="card bread"><div class="card__title">🍞 Bread</div><img alt="" class="card__image" src="./Cartsy _ Grocery Lists for Families_files/bread.webp"></div><div class="card cheerios"><div class="card__title">🥣 Cheerios</div><img alt="" class="card__image" src="./Cartsy _ Grocery Lists for Families_files/cheerios.jpg"></div></div><div class="home__slogan__container"><div class="home__slogan"><h1>the <span class="text__bold">grocery list app,</span></h1><h1>for <span class="text__bold">families</span></h1><h3 class="home__description">share, add, and check-off lists</h3><a href="http://localhost:5173/learn" data-discover="true"><button>learn more</button></a></div></div></div><div class="messages"><img id="message1" class="message1 visible1" src="./Cartsy _ Grocery Lists for Families_files/message1.png"><img id="message2" class="message2 visible2" src="./Cartsy _ Grocery Lists for Families_files/message2.png"></div></div>
+    <script type="module" src="./Cartsy _ Grocery Lists for Families_files/main.jsx"></script>
+  
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false,&quot;isAlwaysAvailableAssistantEnabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
