@@ -5,11 +5,11 @@ function About() {
         <div className="about__wrapper">
             <h1 className='our__team'>Our Team</h1>
             <div className="team__card">
-                <img src="/images/headshot_orange.jpg" alt="" />
+                <img src="./images/headshot_orange.jpg" alt="" />
                 <div className="team__card__info">
                     <div className="name__wrapper">
                         <h1 className='team__card__info__name'>Zak El-Assaad</h1>
-                        <img src="/images/linkedin-logo.png" alt="" />
+                        <img src="./images/linkedin-logo.png" alt="" />
                     </div>
                     <h3 className='team__card__info__subtitle'>Computer Science Student at Santa Monica College</h3>
                     <p className='team__card__info__description'>Computer Science Student, App Developer, and Digital Creator 
@@ -22,9 +22,12 @@ function About() {
                 </div>
             </div>
             <div className="team__card">
-                <img src="/images/headshot_orange.jpg" alt="" />
+                <img src="./images/headshot_orange.jpg" alt="" />
                 <div className="team__card__info">
-                    <h1 className='team__card__info__name'>Zak El-Assaad</h1>
+                    <div className="name__wrapper">
+                        <h1 className='team__card__info__name'>Zak El-Assaad</h1>
+                        <img src="./images/linkedin-logo.png" alt="" />
+                    </div>
                     <h3 className='team__card__info__subtitle'>Computer Science Student at Santa Monica College</h3>
                     <p className='team__card__info__description'>Computer Science Student, App Developer, and Digital Creator 
                         with a passion for building useful and intuitive software. 
