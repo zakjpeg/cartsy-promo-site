@@ -1,0 +1,72 @@
+.about__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadein 0.4s;
+}
+
+.our__team {
+    font-size: 2.5rem;
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    font-weight: 300;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.team__card {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.164);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.team__card img {
+    border-radius: 30px;
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+}
+
+.name__wrapper {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.name__wrapper img {
+    scale: 0.5;
+}
+
+.team__card__info__name {
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.team__card__info__subtitle {
+    color: rgb(70, 70, 70);
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.team__card__info__description {
+    font-family: 'SF Pro Text', sans-serif;
+    font-weight: 400;
+}

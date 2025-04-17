@@ -1,6 +1,7 @@
 
 
 .carousel {
+    flex-shrink: 0;
     margin-top: 30px;
     margin-bottom: 30px;
     display: flex;
@@ -17,7 +18,8 @@
 
 .card {
     margin-left: 40px;
-    width: 20svw;
+    min-width: 35svh;
+    width: 35svh;
     height: 22svh;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.13);
     border-radius: 30px;
@@ -31,16 +33,38 @@
 }
 
 .card__image {
-    width: 100%;
-    min-height: 100%;
+    width: 40svh;
 }
 
+.home__wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 70svh;
+    animation: fadein 0.25s;
+}
 
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.home__slogan__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform: scale(0.9);
+}
 
 .home__slogan {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-self: center;
 }
 
 .home__slogan h1 {
@@ -107,4 +131,58 @@
     width: 18svw;
 }
 
-  
+@media only screen and (max-width:500px) {
+
+
+    .carousel {
+        display: none;
+    }
+
+    .card {
+        background-color: red;
+        min-width: 200px;
+    }
+
+    .home__wrapper {
+        height: min-content;
+    }
+
+    .home__slogan__container {
+        height: min-content;
+        justify-content: first baseline;
+    }
+
+    .home__slogan {
+    }
+
+    .home__slogan h1 {
+        font-size: 2.6rem;
+    }
+
+    .home__slogan h3 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .messages {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: min-content;
+    }
+
+    .message1 {
+        position: static;
+        width: 200px;
+        transform: translate(-25%, 15%);
+    }
+
+    .message2 {
+        position: static;
+        width: 220px;
+        transform: translate(20%, -25%);
+    }
+
+
+}
