@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter basename={"https://zakjpeg.github.io/cartsy-promo-site/"}>
       <div className="header">
         <div className="spacer-left"></div>
-        <Link to="/"><img src="/cartsyLogoName.png" alt="" /></Link>
+        <Link to="/"><img src="./cartsyLogoName.png" alt="" /></Link>
         <nav className="nav__top">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
