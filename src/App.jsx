@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-      <BrowserRouter>
+      <BrowserRouter basename={"https://zakjpeg.github.io/cartsy-promo-site/"}>
       <div className="header">
         <div className="spacer-left"></div>
         <Link to="/"><img src="/cartsyLogoName.png" alt="" /></Link>
