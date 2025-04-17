@@ -28,7 +28,7 @@ export default function Home() {
     return (
         <>
             <div className="messages">
-                <img src="./images/message1.jpg" id='message1' className={`message1 ${showElement ? 'visible1' : ''}`}/>
+                <img src="./images/message1.png" id='message1' className={`message1 ${showElement ? 'visible1' : ''}`}/>
                 <img src="./images/message2.png" id='message2' className={`message2 ${showElement2 ? 'visible2' : ''}`}/>
             </div>
             <div className="home__wrapper">
