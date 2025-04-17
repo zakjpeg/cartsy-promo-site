@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
       <div className="header">
         <div className="spacer-left"></div>
         <Link to="/"><img src="./public/cartsyLogoName.png" alt="" /></Link>
