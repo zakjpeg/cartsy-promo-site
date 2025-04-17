@@ -28,8 +28,8 @@ export default function Home() {
     return (
         <>
             <div className="messages">
-                <img src={`${import.meta.env.BASE_URL}images/message1.jpg`} id='message1' className={`message1 ${showElement ? 'visible1' : ''}`}/>
-                <img src="/images/message2.png" id='message2' className={`message2 ${showElement2 ? 'visible2' : ''}`}/>
+                <img src="./images//message1.jpg" id='message1' className={`message1 ${showElement ? 'visible1' : ''}`}/>
+                <img src="./images/message2.png" id='message2' className={`message2 ${showElement2 ? 'visible2' : ''}`}/>
             </div>
             <div className="home__wrapper">
                 <div className="carousel">
@@ -38,91 +38,91 @@ export default function Home() {
                         <div className="card__title">
                         🍗 Turkey
                         </div>
-                        <img src="/images/turkey.jpg" alt="" className='card__image'/>
+                        <img src="./images/turkey.jpg" alt="" className='card__image'/>
                     </div>
                     <div className="card gatorade">
                         <div className="card__title">
                         🥤 Gatorade
                         </div>
-                        <img src="/images/gatorade.jpg" alt="" className='card__image'/>
+                        <img src="./images/gatorade.jpg" alt="" className='card__image'/>
                     </div>
                     <div className="card avocado">
                         <div className="card__title">
                         🥑 Avocado
                         </div>
-                        <img src="/images/avocado.jpg" alt="" className='card__image'/>
+                        <img src="./images//avocado.jpg" alt="" className='card__image'/>
                     </div>
                     <div className="card pizzarolls">
                         <div className="card__title">
                         🍕 Pizza Rolls
                         </div>
-                        <img src="/images/pizzarolls.jpg" alt="" className='card__image'/>
+                        <img src="./images/pizzarolls.jpg" alt="" className='card__image'/>
                     </div>
                     <div className="card butter">
                         <div className="card__title">
                         🧈 Butter
                         </div>
-                        <img src="/images/butter.webp" alt="" className='card__image'/>
+                        <img src="./images/butter.webp" alt="" className='card__image'/>
                     </div>
                     <div className="card bread">
                         <div className="card__title">
                         🍞 Bread
                         </div>
-                        <img src="/images/bread.webp" alt="" className='card__image'/>
+                        <img src="./images//bread.webp" alt="" className='card__image'/>
                     </div>
                     <div className="card cheerios">
                         <div className="card__title">
                         🥣 Cheerios
                         </div>
-                        <img src="/images/cheerios.jpg" alt="" className='card__image'/>
+                        <img src="./images/cheerios.jpg" alt="" className='card__image'/>
                     </div>
                     <div className="card cutlery">
                         <div className="card__title">
                         🍴 Cutlery
                         </div>
-                        <img src="/images/cutlery.webp" alt="" className='card__image'/>
+                        <img src="./images/cutlery.webp" alt="" className='card__image'/>
                     </div>
                     <div className="card turkey">
                         <div className="card__title">
                         🍗 Turkey
                         </div>
-                        <img src="/images/turkey.jpg" alt="" className='card__image'/>
+                        <img src="./images/turkey.jpg" alt="" className='card__image'/>
                     </div>
                     <div className="card gatorade">
                         <div className="card__title">
                         🥤 Gatorade
                         </div>
-                        <img src="/images/gatorade.jpg" alt="" className='card__image'/>
+                        <img src="./images/gatorade.jpg" alt="" className='card__image'/>
                     </div>
                     <div className="card avocado">
                         <div className="card__title">
                         🥑 Avocado
                         </div>
-                        <img src="/images/avocado.jpg" alt="" className='card__image'/>
+                        <img src="./images/avocado.jpg" alt="" className='card__image'/>
                     </div>
                     <div className="card pizzarolls">
                         <div className="card__title">
                         🍕 Pizza Rolls
                         </div>
-                        <img src="/images/pizzarolls.jpg" alt="" className='card__image'/>
+                        <img src="./images/pizzarolls.jpg" alt="" className='card__image'/>
                     </div>
                     <div className="card butter">
                         <div className="card__title">
                         🧈 Butter
                         </div>
-                        <img src="/images/butter.webp" alt="" className='card__image'/>
+                        <img src="./images/butter.webp" alt="" className='card__image'/>
                     </div>
                     <div className="card bread">
                         <div className="card__title">
                         🍞 Bread
                         </div>
-                        <img src="/images/bread.webp" alt="" className='card__image'/>
+                        <img src="./images/bread.webp" alt="" className='card__image'/>
                     </div>
                     <div className="card cheerios">
                         <div className="card__title">
                         🥣 Cheerios
                         </div>
-                        <img src="/images/cheerios.jpg" alt="" className='card__image'/>
+                        <img src="./images/cheerios.jpg" alt="" className='card__image'/>
                     </div>
 
 

@@ -18,7 +18,7 @@ export default function Learn() {
     return (
         <>
             <div className='learn__wrapper'>
-                <img src="/images/cartsy_iphone.png" alt="" />
+                <img src="./images/cartsy_iphone.png" alt="" />
                 <div className="learn__description">
                     <h3>A Fresh Take on Grocery Lists</h3>
                     <p>Manage and shop your home's essentials without

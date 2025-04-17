@@ -19,7 +19,7 @@ export default function Features() {
     return (
         <>
             <div className='learn__wrapper flex__reverse'>
-                <img src="/images/cartsy_iphone2.png" alt="" />
+                <img src="./images/cartsy_iphone2.png" alt="" />
                 <div className="learn__description">
                     <h3>Share Lists with Family or Friends</h3>
                     <p>Collaborative Lists with up to 15 members
